@@ -1,7 +1,7 @@
 {
   "name": "rachio-cli",
   "version": "0.1.0",
-  "description": "Command-line control for Rachio smart irrigation controllers",
+  "description": "Command-line interface for Rachio smart sprinkler controllers — start zones, set rain delays, and run schedules from your terminal, with JSON output for scripting.",
   "type": "module",
   "bin": {
     "rachio": "dist/index.js"
@@ -20,12 +20,29 @@
   },
   "keywords": [
     "rachio",
+    "rachio-api",
+    "rachio-cli",
     "irrigation",
     "sprinkler",
+    "sprinkler-controller",
+    "watering",
+    "lawn",
     "cli",
-    "smart-home"
+    "command-line",
+    "smart-home",
+    "home-automation",
+    "iot",
+    "typescript"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/alexleventer/rachio-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexleventer/rachio-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexleventer/rachio-cli/issues"
+  },
   "dependencies": {
     "commander": "^14.0.0"
   },
