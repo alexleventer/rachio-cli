@@ -1,0 +1,36 @@
+{
+  "name": "rachio-cli",
+  "version": "0.1.0",
+  "description": "Command-line control for Rachio smart irrigation controllers",
+  "type": "module",
+  "bin": {
+    "rachio": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --experimental-strip-types src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "rachio",
+    "irrigation",
+    "sprinkler",
+    "cli",
+    "smart-home"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
