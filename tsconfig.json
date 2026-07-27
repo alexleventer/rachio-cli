@@ -14,7 +14,7 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "exactOptionalPropertyTypes": false,
-    "declaration": false,
+    "declaration": true,
     "sourceMap": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
